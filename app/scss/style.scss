@@ -1,3 +1,32 @@
 @import 'vars';
 @import 'global';
 @import 'fonts';
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.inner_logo {
+    margin-left: 230px;
+    font-size: 36px;
+    color: $pink;
+    span {
+        color: $orange;
+    }
+}
+
+.inner_text {
+    font-size: 16px;
+    a {
+        text-decoration: none;
+        padding-left: 15px;
+        color: $grey;
+    }
+     :hover {
+        color: $orange;
+    }
+}
