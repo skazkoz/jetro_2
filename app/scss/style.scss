@@ -1,6 +1,10 @@
 @import 'vars';
 @import 'global';
 @import 'fonts';
+a {
+    text-decoration: none;
+}
+
 .header_inner {
     display: flex;
     justify-content: space-between;
@@ -8,18 +12,21 @@
     font-weight: 400;
     text-transform: uppercase;
     padding-top: 20px;
+    padding-left: 230px;
 }
 
 .inner_logo {
-    margin-left: 230px;
     font-size: 36px;
-    color: $pink;
+    a {
+        color: $pink;
+    }
     span {
         color: $orange;
     }
 }
 
 .inner_text {
+    padding-top: 20px;
     font-size: 16px;
     a {
         text-decoration: none;
