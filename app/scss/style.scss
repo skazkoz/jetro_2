@@ -106,7 +106,7 @@
     // &::before {
     //     display: none;
     // }
-    top: 50%;
+    top: 160px;
     left: 5px;
     z-index: 1;
     // align-items: center;
@@ -116,8 +116,21 @@
     // &::before {
     //     display: none;
     // }
-    top: 50%;
+    top: 160px;
     right: 5px;
-    z-index: 2;
-    // align-items: center;
+    // z-index: 2;
+}
+
+.item_box {
+    width: 415px;
+    height: 125px;
+    background-color: rgba(232, 102, 60, 0.8);
+    color: #fff;
+    margin-top: 245px;
+    margin-left: 35px;
+    font-family: 'Bebas';
+    font-weight: 400;
+    &-title {
+        font-size: 18px;
+    }
 }
