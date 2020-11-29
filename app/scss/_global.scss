@@ -13,6 +13,17 @@ a {
     text-decoration: none;
 }
 
+button {
+    border: none;
+    text-decoration: none;
+    background: none;
+    &:active,
+    &:focus {
+        border: none;
+        outline: none;
+    }
+}
+
 .header {
     font-family: 'Bebas';
     font-weight: 400;

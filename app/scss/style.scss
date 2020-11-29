@@ -48,7 +48,6 @@
 
 .slider {
     background-color: #81e4ed;
-    // background-color: #000;
 }
 
 .slider_container {
@@ -58,7 +57,6 @@
 
 .slider_left,
 .slider_rigth {
-    // position: relative;
     width: 220px;
     height: 60px;
     background-color: $sl_pink;
@@ -72,11 +70,6 @@
     margin-left: 10px;
 }
 
-// .slider_inner {
-//     width: 940px;
-//     min-height: 400px;
-//     // min-width: 75%;
-// }
 .slick-list {
     width: 940px;
     min-height: 400px;
@@ -86,13 +79,45 @@
     width: 100%;
     min-height: 400px;
     background-image: url(../images/slider/slider1.jpg);
-    // min-height: 440px;
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+// .slider_inner {
+//     display: flex;
+//     justify-content: space-between;
+// }
 .slick-arrow {
-    width: 20px;
-    height: 20px;
+    display: flex;
+    // flex-direction: column;
+    position: absolute;
+    border: none;
+    text-decoration: none;
+    background: none;
+    &:active,
+    &:focus {
+        border: none;
+        outline: none;
+    }
+}
+
+.slick-prev {
+    // &::before {
+    //     display: none;
+    // }
+    top: 50%;
+    left: 5px;
+    z-index: 1;
+    // align-items: center;
+}
+
+.slick-next {
+    // &::before {
+    //     display: none;
+    // }
+    top: 50%;
+    right: 5px;
+    z-index: 2;
+    // align-items: center;
 }
