@@ -8,7 +8,15 @@
 @font-face {
     font-family: 'Bebas';
     src: url('../fonts/Bebas-Regular.woff2') format('woff2'), url('../fonts/Bebas-Regular.woff') format('woff');
-    font-weight: normal;
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('HelveticaNeueMedium.woff2') format('woff2'), url('HelveticaNeueMedium.woff') format('woff');
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
