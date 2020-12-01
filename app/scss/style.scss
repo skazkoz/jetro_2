@@ -274,3 +274,73 @@ body {
         font-size: 11px;
     }
 }
+
+// footer
+.footer {
+    &_inner {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 45px;
+    }
+    &_left {
+        margin-right: 10px;
+    }
+    &_rigth {
+        margin-left: 10px;
+    }
+    &_left,
+    &_rigth {
+        width: 281px;
+        height: 260px;
+        background-color: $sl_pink;
+    }
+    &_box {
+        width: 937px;
+        height: 260px;
+        background-color: $orange;
+        &-inner {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+.footInner {
+    color: #fff;
+    font-family: 'Bebas';
+    width: 260px;
+    margin: 40px 35px;
+    a {
+        color: #fff;
+    }
+}
+
+.inner {
+    &_head {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    &_body {
+        font-size: 12px;
+        font-family: 'HelveticaNeue';
+    }
+    &_text {
+        span {
+            color: rgba($color: $grey, $alpha: 0.7);
+        }
+    }
+    &_hour {
+        color: rgba($color: $grey, $alpha: 0.7);
+        margin-top: 8px;
+        margin-bottom: 21px;
+    }
+    &_email {
+        // a {
+        //     color: #fff;
+        // }
+        margin-top: 20px;
+    }
+    &_fax {
+        margin-bottom: 20px;
+    }
+}
