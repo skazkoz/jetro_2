@@ -183,14 +183,12 @@ body {
 //item
 .items_inner {
     display: flex;
-    // justify-content: space-between;
     margin: 0px 291px;
 }
 
 .item {
     width: 300px;
     font-family: 'Bebas';
-    // margin-right: 30px;
     &+& {
         margin-left: 20px;
     }
@@ -236,8 +234,6 @@ body {
     font-family: 'Bebas';
     color: $orange;
     &_inner {
-        // display: flex;
-        // justify-content: space-between;
         margin: 45px 291px 0px 291px;
     }
     &_head {
@@ -246,7 +242,6 @@ body {
         margin-bottom: 25px;
     }
     &_title {
-        // font-family: 'Bebas';
         font-size: 18px;
         margin-right: 20px;
         display: inline;
@@ -254,7 +249,6 @@ body {
     &_line {
         width: 805px;
         height: 18px;
-        // background-image: url(../images/icons/Line.svg);
         background-color: rgba(232, 102, 60, 0.6);
     }
 }
@@ -262,12 +256,15 @@ body {
 .work {
     line-height: 18px;
     font-size: 16px;
-    &_body {
-        border: 1px solid $grey;
-        border-left: none;
+    display: flex;
+    justify-content: space-between;
+    &_head {
+        border-right: 1px solid #dbdbdb;
     }
     &_text {
-        margin: 13px 0px;
+        padding: 13px 0px 14px 13px;
+        border: 1px solid #dbdbdb;
+        border-top: none;
     }
     &_name {
         color: $grey;
