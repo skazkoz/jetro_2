@@ -1,6 +1,13 @@
 @import 'vars';
 @import 'global';
 @import 'fonts';
+body {
+    background-image: url(../images/icons/bg.png);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 //header
 .header_inner {
     display: flex;
@@ -189,11 +196,12 @@
     }
     &_link {
         text-align: center;
-        padding: 10px 0px;
+        padding: 10px 10px;
         width: 56px;
         height: 31px;
         background-color: #e8663c;
         color: #fff;
+        font-size: 12px;
     }
     &_title {
         text-transform: uppercase;
@@ -220,5 +228,52 @@
         font-size: 12px;
         line-height: 18px;
         padding-bottom: 40px;
+    }
+}
+
+//works
+.works {
+    font-family: 'Bebas';
+    color: $orange;
+    &_inner {
+        // display: flex;
+        // justify-content: space-between;
+        margin: 45px 291px 0px 291px;
+    }
+    &_head {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+    &_title {
+        // font-family: 'Bebas';
+        font-size: 18px;
+        margin-right: 20px;
+        display: inline;
+    }
+    &_line {
+        width: 805px;
+        height: 18px;
+        // background-image: url(../images/icons/Line.svg);
+        background-color: rgba(232, 102, 60, 0.6);
+    }
+}
+
+.work {
+    line-height: 18px;
+    font-size: 16px;
+    &_body {
+        border: 1px solid $grey;
+        border-left: none;
+    }
+    &_text {
+        margin: 13px 0px;
+    }
+    &_name {
+        color: $grey;
+    }
+    &_date {
+        color: $orange;
+        font-size: 11px;
     }
 }
